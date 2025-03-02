@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshmi Bodepudi</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#hero" class="name">Reshmi</a>
+        <div class="nav-buttons">
+            <a href="#hero" class="nav-btn">Home</a>
+            <a href="#about" class="nav-btn">About</a>
+            <a href="#areas" class="nav-btn">Highlights</a>
+            <a href="#projects" class="nav-btn">My Work</a>
+            <a href="#contact" class="nav-btn">Contact Me</a>
+        </div>
+    </nav>
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <p class="greeting" style="align-self: flex-start; margin-left: 60px;">Hi! I am</p>
+            <h1 class="name-highlight">Naga Reshmi Bodepudi</h1>
+            <p class="tagline">Building the Future with Code, Leading with Vision, and Writing Stories in Both Tech and Poetry.</p>
+            <div class="rolling-text">
+                <span id="role"></span>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <section id="about">
+        <div class="about-container">
+            <div class="image-container">
+                <img src="Assets/MyImage.jpg" alt="Profile Picture" class="profile-image" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+            <div class="about-content">
+                <h2 class="about-heading">
+                    About Me
+                    <span class="heading-underline"></span>
+                </h2>
+                <p class="about-text">
+                    I'm a Computer Science student with a passion for web development, machine learning, and AI. I love turning ideas into reality through technology while also expressing creativity through writing. Whether it's coding intelligent systems, leading teams, or penning down thoughts, I strive to blend innovation with imagination.
+                </p>
+                <a href="Assets/Resume.pdf" download class="download-button" onmouseover="this.style.backgroundColor='#006666'" onmouseout="this.style.backgroundColor='#008080'">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="areas" class="areas-section">
+        <h2 class="section-heading">Highlights</h2>
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="showTab('areas-content')">My Areas</button>
+            <button class="tab-btn" onclick="showTab('certificates')" >Certificates</button>
+            <button class="tab-btn" onclick="showTab('achievements')">Achievements</button>
+        </div>
+
+        <div id="areas-content" class="tab-content active">
+            <div class="areas-grid">
+                <div class="area-box">
+                    <i class="fas fa-code area-icon"></i>
+                    <h3 class="area-heading">Web Development</h3>
+                    <p class="area-text">I have built full-stack projects using the MERN stack, working with both frontend and backend technologies to create functional web applications.</p>
+                </div>
+                <div class="area-box">
+                    <i class="fas fa-brain area-icon"></i>
+                    <h3 class="area-heading">Machine Learning</h3>
+                    <p class="area-text">I have worked on projects using ML models, applying basic algorithms to analyze data and make predictions.</p>
+                </div>
+                <div class="area-box">
+                    <i class="fas fa-laptop-code area-icon"></i>
+                    <h3 class="area-heading">Programming</h3>
+                    <p class="area-text">I can solve problems using Java, focusing on logic, data structures, and algorithmic thinking.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="certificates" class="tab-content">
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3 class="certificate-title">Supervised Machine Learning</h3>
+                    <p class="certificate-issuer">Coursera</p>
+                    <a href="https://drive.google.com/file/d/1ZE7sQnk7FnabosndSTQn-IXXCdF3gn7s/view" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+                <div class="certificate-card">
+                    <h3 class="certificate-title">Joy of Computing Python</h3>
+                    <p class="certificate-issuer">NPTEL</p>
+                    <a href="https://drive.google.com/file/d/17YCqXWTyNlhj69xIdTwFaUFiOYYJ620h/view" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+                <div class="certificate-card">
+                    <h3 class="certificate-title">Object Oriented Programming</h3>
+                    <p class="certificate-issuer">TUF</p>
+                    <a href="https://drive.google.com/file/d/1SZpTox0LXrmLf9CNmgk8WK36JZvDZPFg/view" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+                <div class="certificate-card">
+                    <h3 class="certificate-title">Front End Web Development</h3>
+                    <p class="certificate-issuer">Bolt</p>
+                    <a href="https://drive.google.com/file/d/14RCrpSU77PbCEhvWuHZFXwplajpkV6vx/view" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="achievements" class="tab-content">
+            <div class="achievements-grid">
+                <div class="achievement-box">
+                   
+                    <h3 class="area-heading">Best Paper Award</h3>
+                    <p class="achievement-desc">Received Best paper certificate for the paper SoulEase in concefence ICCPCT 2024</p>
+                    <a href="https://www.linkedin.com/posts/reshmi-bodepudi_researchpaper-ai-ml-activity-7228798660447191040-mfW8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVrSHkBe3Wz9J2ZY4hicrpqbGRpT1tBljQ" class="achievement-link">View details</a>
+                </div>
+                <div class="achievement-box">
+                 
+                    <h3 class="area-heading">1st Prize in Yukthi Hackathon</h3>
+                    <p class="achievement-desc">Won first place for innovative solution in 28-hour national level hackathon</p>
+                    <a href="https://www.linkedin.com/posts/reshmi-bodepudi_excited-to-announce-our-victory-at-the-activity-7191499147357642753-V85h?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVrSHkBe3Wz9J2ZY4hicrpqbGRpT1tBljQ" class="achievement-link">View details</a>
+                </div>
+                <div class="achievement-box">
+                    
+                    <h3 class="area-heading">SIH Hackathon Internal Level 1st Prize</h3>
+                    <p class="achievement-desc">Secured first position in Smart India Hackathon internal round</p>
+                    <a href="https://www.linkedin.com/posts/reshmi-bodepudi_hey-guys-im-thrilled-to-share-that-our-activity-7121129624004132865-rIrc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVrSHkBe3Wz9J2ZY4hicrpqbGRpT1tBljQ" class="achievement-link">View Details</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section id="projects" class="projects-section">
+        <h2 class="section-heading">My Work</h2>
+        <div class="projects-grid">
+           
+            <div class="project-box">
+                <div class="project-header">
+                    <h3 class="project-title">P&ID UPdation using GenAI</h3>
+                    <span class="project-type">Project Intern</span>
+                </div>
+                <p class="project-brief">AI-powered system for automating and updating P&IDs using Generative AI.</p>
+                <div class="project-image">
+                    <img src="Assets/Hexagon.jpg" alt="Hexagon project Preview">
+                </div>
+                <div class="project-footer">
+                    <button class="details-btn" onclick="showProjectDetails('hexagon')">View Details</button>
+                    <a href="https://www.linkedin.com/posts/reshmi-bodepudi_%F0%9D%90%92%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0%F0%9D%90%AC-%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%AC-activity-7271040426227183616-GbaJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEVrSHkBe3Wz9J2ZY4hicrpqbGRpT1tBljQ" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-header">
+                    <h3 class="project-title">SoulEase</h3>
+                    <span class="project-type">Minor Project</span>
+                </div>
+                <p class="project-brief">AI-based platform that detects emotions from journal entries and provides affirmations and exercises for well-being.</p>
+                <div class="project-image">
+                    <img src="Assets/SoulEase.png" alt="SoulEase Preview">
+                </div>
+                <div class="project-footer">
+                    <button class="details-btn" onclick="showProjectDetails('soulease')">View Details</button>
+                    <a href="https://github.com/reshmibodepudi/SoulEase" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            
+            <div class="project-box">
+                <div class="project-header">
+                    <h3 class="project-title">KisanSathi</h3>
+                    <span class="project-type">Hackathon</span>
+                </div>
+                <p class="project-brief">AI-driven farming assistant that predicts suitable crops based on soil analysis and offers multilingual agricultural insights.</p>
+                <div class="project-image">
+                    <img src="Assets/KisanSathi.jpg" alt="E-Commerce Preview">
+                </div>
+                <div class="project-footer">
+                    <button class="details-btn" onclick="showProjectDetails('kisansathi')">View Details</button>
+                    <a href="https://reshmibodepudi.github.io/Kisan-Sathi/kisansathi/index.html" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-header">
+                    <h3 class="project-title">AI - Personal Writer</h3>
+                    <span class="project-type">Personal</span>
+                </div>
+                <p class="project-brief">AI tool that generates emails, essays, and formal content using Flask and Gemini API.</p>
+                <div class="project-image">
+                    <img src="Assets/AIWriter.jpg" alt="E-Commerce Preview">
+                </div>
+                <div class="project-footer">
+                    <button class="details-btn" onclick="showProjectDetails('aiwriter')">View Details</button>
+                    <a href="https://github.com/reshmibodepudi/AI-Writer" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="projectModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modalTitle" class="modal-title"></h3>
+                <div class="modal-description">
+                    <p id="modalDescription"></p>
+                </div>
+                <div style="text-align: center;">
+                    <a id="modalLink" href="" target="_blank" class="modal-link-btn">Visit Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    <section id="contact" class="contact-section">
+        <h2 class="section-heading">Contact Me</h2>
+        <div class="contact-container">
+            <form id="contactForm" onsubmit="sendEmail(event)">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <div class="social-container">
+        <a href="https://www.linkedin.com/in/reshmi-bodepudi/" class="social-link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/reshmibodepudi" class="social-link" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:nagareshmibodepudi@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.instagram.com/naga_reshmi/" class="social-link" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="tel:+919293947141" class="social-link">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    
+    
+
+    <footer>
+        <p>
+            Copyright © 2025 <span>Naga Reshmi Bodepudi</span>. All rights reserved.
+        </p>
+        <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
